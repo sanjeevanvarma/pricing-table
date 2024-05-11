@@ -1,0 +1,86 @@
+git<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pricing Table</title>
+  <link href="page.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+  <div class="pricing-table">
+    <div class="details">
+      <h2>Pricing Page</h2>
+      <p>choose the plans that suits your requirements</p>
+    </div>
+    <div class="selection-container">
+      <div class="currency-select">
+        <label for="currency">Currency:</label>
+        <select id="currency">
+          <option value="USD">USD</option>
+          <option value="EUR">EUR</option>
+          <option value="GBP">GBP</option>
+          <option value="INR">INR</option>
+        </select>
+      </div>
+      <div class="unit-select">
+        <label for="unit">Unit:</label>
+        <select id="unit">
+          <option value="monthly">Monthly</option>
+          <option value="annually">Annually</option>
+        </select>
+      </div>
+    </div>
+    <div class="grid">
+      <div class="box">
+        <div class="title">Basic</div>
+        <div class="price">
+          <b id="basic-price">$9.99</b>
+          <span id="basic-duration">per month</span>
+        </div>
+        <div class="features">
+          <div>1 CPU</div>
+          <div>200 GB Storage</div>
+          <div>2 users Allowed</div>
+          <div>Send up to 2GB</div>
+        </div>
+        <div class="button">
+          <button>Buy Now</button>
+        </div>
+      </div>
+      <div class="box">
+        <div class="title">Pro</div>
+        <div class="price">
+          <b id="pro-price">$19.99</b>
+          <span id="pro-duration">per month</span>
+        </div>
+        <div class="features">
+          <div>4 CPU</div>
+          <div>500 GB Storage</div>
+          <div>5 users Allowed</div>
+          <div>Send up to 5GB</div>
+        </div>
+        <div class="button">
+          <button>Buy Now</button>
+        </div>
+      </div>
+      <div class="box">
+        <div class="title">Premium</div>
+        <div class="price">
+          <b id="premium-price">$44.99</b>
+          <span id="premium-duration">per month</span>
+        </div>
+        <div class="features">
+          <div>10 CPU</div>
+          <div>1TB Storage</div>
+          <div>10 users Allowed</div>
+          <div>Send up to 10GB</div>
+        </div>
+        <div class="button">
+          <button>Buy Now</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
